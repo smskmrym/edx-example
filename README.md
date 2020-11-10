@@ -1,1 +1,1 @@
-# netcoremvcproje
+# c# .net core mvc proje
