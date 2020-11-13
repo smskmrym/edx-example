@@ -28,6 +28,17 @@ namespace proje.Controllers
             return View();
         }
 
+        public IActionResult ViewWithoutModel()
+        {
+            ViewBag.MyProperty = "My Property";
+            int number = (new Random().Next());
+            return View(number);
+        }
+        public IActionResult Age()
+        {
+            AgeViewModel model = new AgeViewModel();
+            return View(model);
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

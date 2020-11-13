@@ -1,0 +1,19 @@
+﻿@model List<proje.Models.Product>
+
+
+    <h1>@ViewData["Heading"]</h1>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Price</td>
+        </tr>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.ID</td>
+                <td>@p.Name</td>
+                <td>@p.Price</td>
+            </tr>
+        }
+    </table>
