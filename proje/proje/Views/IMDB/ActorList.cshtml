@@ -1,0 +1,17 @@
+﻿@model List<proje.Models.Actor>
+
+<table border="1">
+    <tr>
+        <td>ID</td>
+        <td>First Name</td>
+        <td>Last Name</td>
+    </tr>
+    @foreach (var Actor in Model)
+    {
+        <tr>
+            <td>@Actor.Actor_ID</td>
+            <td>@Actor.First_Name</td>
+            <td>@Actor.Last_Name</td>
+        </tr>
+    }
+</table>
