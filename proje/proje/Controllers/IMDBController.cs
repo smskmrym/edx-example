@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using proje.Models;
+using proje.Models.ViewModels;
+
 
 namespace proje.Controllers
 {
@@ -21,6 +21,15 @@ namespace proje.Controllers
             actorList.Add(new Actor { Actor_ID = 1, First_Name = "Parker", Last_Name = "Posey", Last_Update = DateTime.Now });
 
             return View(actorList);
+        }
+        public IActionResult DirectorFilms()
+        {
+            DirectorFilmViewModel viewModel = new DirectorFilmViewModel();
+            viewModel.Director = new Director() { Name = "Tarantino" };
+            viewModel.Films = new List<Film>();
+
+            viewModel.Films.Add(new Film() { Name = "Pulp Fiction" });
+            return View(viewModel);
         }
 
         // GET: IMDBController/Details/5

@@ -39,3 +39,6 @@ C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp
 C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp3.1\proje.csproj.CopyComplete
 C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewWithoutModel.cshtml.g.cs
 C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Age.cshtml.g.cs
+C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp3.1\Razor\Views\IMDB\Index.cshtml.g.cs
+C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp3.1\Razor\Views\IMDB\ActorList.cshtml.g.cs
+C:\Users\meri\Documents\project\netcoremvcproje\proje\proje\obj\Debug\netcoreapp3.1\Razor\Views\IMDB\DirectorFilm.cshtml.g.cs
